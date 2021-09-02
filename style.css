@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    max-width: fit-content;
+ 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#colorCode {
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(5, 5, 31);
+    color: cornflowerblue;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+button {
+    width: 200px;
+    height: 100px;
+    border: none;
+    border-radius: 15px;
+	transition-duration: 0.4s;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+button:hover {
+  background-color: gray; /* Green */
+  color: white;
+}
